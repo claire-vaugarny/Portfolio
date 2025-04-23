@@ -34,6 +34,7 @@
 
 			&.active {
 				background-color: variables.$navbar-color-2;
+				color: variables.$text-color-secondary;
 			}
 
 			&:hover {

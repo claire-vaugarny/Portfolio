@@ -1,57 +1,41 @@
-@use '../src/variables';
+@use "./variables.scss";
 
-#bodyContainer{
+main {
+  max-width: 1280px;
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100%;
-  
-}
+  flex-direction: column;
+  text-align: center;
+  box-sizing: border-box;
 
-main{
-  width:100%;
-  padding-left: 15%;
-  height: 100vh;
+  color: variables.$text-color;
+  margin-left: 150px;
 }
 
 section{
-  width: 100%;
-  height: 100%;
-  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  padding: 2rem;
+  margin: 40px 0;
 }
 
-.sectionPaire{
-  background-color: variables.$background-color-1;
+h1,h2{
+  color: variables.$title-color-1;
 }
 
-.sectionImpaire{
-  background-color: variables.$background-color-2;
-}
-
-.body-no-scroll {
-  overflow-y: hidden;
-  height: 100vh;
+h3{
+  color: variables.$title-color-2;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  height: fit-content;
+  text-align: left;
+
   font-weight: 500;
-
-  &:hover {
-    text-decoration: underline;
-  }
+  color: #8b91ff;
+  text-decoration: inherit;
 }
-
-
-@media (max-width: 768px) {
-  #bodyContainer {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  main {
-    padding-left: 0;
-    height: auto; 
-  }
+a:hover {
+  color: #535bf2;
 }

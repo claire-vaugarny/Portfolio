@@ -51,14 +51,6 @@ function Navbar() {
 						Projets
 					</a>
 				</li>
-				<li>
-					<a
-						href="#ContactSection"
-						className={`linkNavbar ${activeSection === "ContactSection" ? "active" : ""}`}
-					>
-						Contact
-					</a>
-				</li>
 			</ul>
 		</nav>
 	);

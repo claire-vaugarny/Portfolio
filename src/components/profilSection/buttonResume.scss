@@ -1,0 +1,20 @@
+@use '../../variables';
+
+#buttonResume {
+    color: variables.$background1;
+    font-size: 17px;
+    background-color: variables.$title-color-2;
+    border: 1px solid variables.$title-color-3;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0px 6px 0px variables.$title-color-1;
+    transition: all 0.1s;
+  }
+  
+  #buttonResume:active {
+    box-shadow: 0px 2px 0px variables.$title-color-1;
+    position: relative;
+    top: 2px;
+  }
+  

@@ -1,0 +1,13 @@
+.imageContainer {
+    display: flex;
+    justify-content: center; /* Centre l'image */
+    align-items: center;     /* Centre l'image verticalement */
+    height: 100%;           /* Hauteur de la fenêtre pour centrer l'image */
+}
+
+.imageContainer img {
+      border-radius: 10px;
+    max-width: 100%;    /* S'adapte à la taille du conteneur */
+    max-height: 100%;   /* Pour éviter que l'image dépasse */
+  }
+  

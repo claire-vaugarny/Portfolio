@@ -1,16 +1,19 @@
-@use '../variables';
+@use '../../variables.scss';
 
 #navbar {
-	background-color: variables.$navbar-color-1;
-	width: 15%;
+	border: 2px solid variables.$title-color-2;
+	border-radius: 10px;
+
+	background-color: variables.$background3;
+	
+	width: 150px;
 	height: 100vh;
 	top: 0;
 	left: 0;
-
+	
 	position: fixed;
-
+	
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 
@@ -18,27 +21,26 @@
 		list-style: none;
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+		padding: 0;
 		gap: 68px;
 	}
-
+	
 	li {
-		display: flex;
-		flex-direction: column;
-
 		.linkNavbar {
 			display: block;
 			padding: 10px 20px;
-			color: white;
+			color: variables.$title-color-1;
 			text-decoration: none;
 			transition: background-color 0.3s ease;
-
+			
 			&.active {
-				background-color: variables.$navbar-color-2;
-				color: variables.$text-color-secondary;
+				// background-color: variables.$navbar-color-2;
+				// color: variables.$text-color-secondary;
 			}
 
 			&:hover {
-				background-color: lighten(variables.$navbar-color-2, 10%);
+				// background-color: lighten(variables.$navbar-color-2, 10%);
 			}
 		}
 	}

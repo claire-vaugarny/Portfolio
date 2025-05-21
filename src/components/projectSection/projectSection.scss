@@ -1,21 +1,18 @@
-@use '../../_variables.scss';
+@use '../../variables';
 
-#ProjectSection {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 20px;
+.projectSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); // 3 colonnes de taille égale
+  gap: 2rem; // espace entre les cartes
+
+  background-color: variables.$background2;
 }
-.projectsList {
-	list-style: none;
-	width: 100%;
-	height: fit-content;
 
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+
+@media screen and (max-width: 1000px) {
+  .projectSection {
+    grid-template-columns: repeat(1, 1fr);
   }
-  
-
-@media (max-width: 768px) {
 }
+
+

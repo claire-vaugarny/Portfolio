@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "title": "Créer une page web dynamique avec JavaScript",
+    "description": "Réalisation de l’interface front-end avec intégration API, gestion de l’authentification (login/logout) et mise en œuvre des opérations CRUD pour la gestion des projets.",
+    "tags": [
+      {
+        "icon_tag": "fab fa-js",
+        "name_tag": "Javascript"
+      }
+    ],
+    "links": [
+      "https://github.com/claire-vaugarny/Projet3-architect-portfolio.git"
+    ],
+    "images": [
+      "images/SophieBluel_accueil.webp",
+      "images/SophieBluel_login.webp"
+    ]
+  },
+
+  {
+    "id": 2,
+    "title": "Créer une application React",
+    "description": "Développer l'interface front-end complète du nouveau site Kasa en React, en se basant de la maquette Figma et d'un fichier JSON simulant les données.",
+    "tags": [
+      {
+        "icon_tag": "fab fa-react",
+        "name_tag": "React"
+      },
+      {
+        "icon_tag": "fab fa-sass",
+        "name_tag": "Sass"
+      },
+      {
+        "icon_tag": "fas fa-bolt",
+        "name_tag": "Vite"
+      }
+    ],
+    "links": ["https://github.com/claire-vaugarny/Projet5_Kasa.git"],
+    "images": ["images/Kasa_accueil.webp", "images/Kasa_logement.webp"]
+  },
+
+  {
+    "id": 3,
+    "title": "Développer le back-end d’un site de notation de livres",
+    "description": "Créer le back-end d’un site de notation de livres pour qu’il s’intègre correctement avec le front-end. Le front-end est déjà fourni.",
+    "tags": [
+      {
+        "icon_tag": "fa-brands fa-node-js",
+        "name_tag": "Node.js"
+      },
+      {
+        "icon_tag": "fa-solid fa-server",
+        "name_tag": "Express"
+      },
+      {
+        "icon_tag": "fa-solid fa-database",
+        "name_tag": "MongoDB"
+      }
+    ],
+    "links": [
+      "https://github.com/OpenClassrooms-Student-Center/P7-Dev-Web-livres.git",
+      "https://github.com/claire-vaugarny/Projet6_MonVieuxGrimoire.git"
+    ],
+    "images": ["images/Mon_Vieux_Grimoire.webp"]
+  }
+]

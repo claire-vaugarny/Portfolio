@@ -60,3 +60,28 @@
     margin-top: 40px;
   }
 }
+
+
+@media (max-width: 768px) {
+  #ProfilSection {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .profilSection-content {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 2rem;
+    }
+
+    .profilSection-left,
+    .profilSection-right {
+      flex-direction: row;
+      justify-content: center;
+      gap: 1rem;
+    }
+  }
+}

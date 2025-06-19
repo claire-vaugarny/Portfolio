@@ -8,7 +8,7 @@ import './App.scss'
 function App() {
   return (
     <main className="main">
-      {/* <Navbar /> */}
+      <Navbar />
       <ProfileSection />
       <CompetencesSection />
       <ProjectSection />

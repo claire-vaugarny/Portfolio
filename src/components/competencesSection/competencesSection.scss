@@ -38,3 +38,20 @@
     }
   }
 }
+
+
+@media (max-width: 768px) {
+  #CompetencesSection .skillsContainer {
+    grid-template-columns: 1fr;
+    justify-items: center; // centre les éléments horizontalement
+    
+    width: 90%;
+    padding: 0px;
+    gap: 0rem;
+    
+    h3{
+      margin-top: 0;
+    }
+  }
+
+}

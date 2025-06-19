@@ -8,8 +8,8 @@ import './App.scss'
 function App() {
   return (
     <main className="main">
-      <Navbar />
-      <ProfileSection />
+      {/* <Navbar /> */}
+      {/* <ProfileSection /> */}
       <CompetencesSection />
       <ProjectSection />
     </main>

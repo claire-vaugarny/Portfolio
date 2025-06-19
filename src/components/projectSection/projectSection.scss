@@ -16,3 +16,13 @@
 }
 
 
+@media (max-width:768px) {
+  .projectSection{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}

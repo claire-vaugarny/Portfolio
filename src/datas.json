@@ -63,5 +63,18 @@
       "https://github.com/claire-vaugarny/Projet6_MonVieuxGrimoire.git"
     ],
     "images": ["images/Mon_Vieux_Grimoire.webp"]
+  },
+  {
+    "id": 4,
+    "title": "Un jeu de Uno avec Java",
+    "description": "Apprendre et mettre en pratique les premières notions de Java apprises.",
+    "tags": [
+      {
+        "icon_tag": "fa-brands fa-java",
+        "name_tag": "Java"
+      }
+    ],
+    "links": ["https://github.com/claire-vaugarny/UNO_V2.git"],
+    "images": ["images/jeuUno.webp"]
   }
 ]
